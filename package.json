@@ -1,0 +1,26 @@
+{
+  "name": "typescriptlab",
+  "version": "1.0.0",
+  "description": "A repo for all things TypeScript - from core fundamentals to advanced concepts and reusable patterns.",
+  "main": "main.js",
+  "directories": {
+    "example": "examples",
+    "recipe": "recipes"
+  },
+  "scripts": {
+    "start": "npx ts-node main.ts",
+    "examples": "npx ts-node",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "learning",
+    "examples",
+    "patterns"
+  ],
+  "author": "GT581",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.8.3"
+  }
+}
