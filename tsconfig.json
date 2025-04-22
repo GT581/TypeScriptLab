@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // Specifies ECMAScript target version, most common two: ES2020(more stable), ESNEXT(more features)
+    "target": "ES2020",
+    // Specifies module code generation, most common two: commonjs(older, more compatible), ESNext(newest, more features)
+    "module": "commonjs",
+    // Enables all strict type checking options (more reliable, catches more errors)  
+    "strict": true,
+    // Allows default imports from modules with no default export (more flexible)
+    "esModuleInterop": true,
+    // Skip type checking of declaration files (faster)
+    "skipLibCheck": true,
+    // Disallow inconsistently-cased references to the same file (more reliable)
+    "forceConsistentCasingInFileNames": true,
+    // Directory for compiled JavaScript files
+    "outDir": "./dist",
+    "rootDir": "./",
+    // List of library files to be included in the compilation
+    "lib": ["ES2020", "DOM"],
+    // Generates corresponding .map files for JavaScript files (more helpful for debugging)
+      "sourceMap": true,
+    // Enables experimental support for ES decorators (more flexible)
+    "experimentalDecorators": true,
+    // Emits design-type metadata for decorated declarations in source (more flexible)
+    "emitDecoratorMetadata": true
+  },
+  // Files to include in compilation
+  "include": [
+    "**/*.ts"
+  ],
+  // Files to exclude from compilation
+  "exclude": [
+    "node_modules"
+  ]
+} 
