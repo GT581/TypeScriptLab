@@ -11,8 +11,8 @@ import * as path from 'path';
 const examplesDir = path.join(__dirname, 'examples');
 const recipesDir = path.join(__dirname, 'recipes');
 
-console.log('\n=== TypeScript Learning Lab ===\n');
-console.log('A comprehensive repository for learning TypeScript\n');
+console.log('\n=== TypeScript Lab ===\n');
+console.log('A comprehensive repository for TypeScript\n');
 
 console.log('Available Examples:');
 try {
